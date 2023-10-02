@@ -13,20 +13,6 @@ function App() {
         </tr>
         <tbody className="border-2 border-black">
           <Paginateddata itemPerPage={10} />
-          {/* {count.map((e) => {
-            return (
-              <>
-                <tr>
-                  <td className="border-2 border-black">
-                    {e.id}
-                  </td>
-                  <td className="border-2 border-black">
-                    {e.title}
-                  </td>
-                </tr>
-              </>
-            );
-          })} */}
         </tbody>
       </table>
     </>
